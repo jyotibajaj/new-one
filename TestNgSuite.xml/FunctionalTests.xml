@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="AmazonECommerceSuite" verbose="1" >
+
+<parameter name="url" value="http://www.amazon.com" />
+ 
+<parameter name="browserType" value="chrome" />
+
+
+  <test name="AddToCartTests" >
+    <classes>
+       <class name="testproject.AmazonAddToCartTests" />
+    </classes>
+  </test>
+ 
+
+</suite>

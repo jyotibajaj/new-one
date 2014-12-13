@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AmazonECommerceSuite" duration-ms="15668" started-at="2014-12-12T07:50:42Z" finished-at="2014-12-12T07:50:57Z">
+    <groups>
+    </groups>
+    <test name="AddToCartTests" duration-ms="15668" started-at="2014-12-12T07:50:42Z" finished-at="2014-12-12T07:50:57Z">
+      <class name="testproject.AmazonAddToCartTests">
+        <test-method status="PASS" signature="initialize(java.lang.String, java.lang.String)[pri:0, instance:testproject.AmazonAddToCartTests@62c09554]" name="initialize" is-config="true" duration-ms="5344" started-at="2014-12-11T23:50:42Z" finished-at="2014-12-11T23:50:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:testproject.AmazonAddToCartTests@62c09554]" name="addToCartTest" duration-ms="10281" started-at="2014-12-11T23:50:47Z" finished-at="2014-12-11T23:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+      </class> <!-- testproject.AmazonAddToCartTests -->
+    </test> <!-- AddToCartTests -->
+  </suite> <!-- AmazonECommerceSuite -->
+</testng-results>

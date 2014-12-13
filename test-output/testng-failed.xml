@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonECommerceSuite]">
+  <parameter name="url" value="http://www.amazon.com"/>
+  <test name="AddToCartTests(failed)">
+    <classes>
+      <class name="testproject.AmazonAddToCartTests">
+        <methods>
+          <include name="addToCartTest"/>
+        </methods>
+      </class> <!-- testproject.AmazonAddToCartTests -->
+    </classes>
+  </test> <!-- AddToCartTests(failed) -->
+</suite> <!-- Failed suite [AmazonECommerceSuite] -->
